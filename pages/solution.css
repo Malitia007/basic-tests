@@ -1,0 +1,39 @@
+/*new CSS to have the complete content solution */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer-centered {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-centered .inner{
+    text-align: center;
+}
+
+.outer-left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.outer-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.outer-right .inner {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.outer-left .inner{
+    display: flex;
+    align-items: flex-end;
+}
